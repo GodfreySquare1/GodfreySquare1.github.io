@@ -9,6 +9,9 @@ addButton.addEventListener('click', () => {
     paragraph.innerText = textList.value;
     var remove = document.createElement('button')
     var editParagraph = document.createElement('i')
+    var checkbox = document.createElement('input')
+    checkbox.setAttribute('type', 'checkbox')
+    checkbox.classList = 'checkbox-style'
     editParagraph.innerText = ''
     editParagraph.classList = 'fa fa-pencil'
     editParagraph.setAttribute('id', 'edit')
@@ -17,6 +20,7 @@ addButton.addEventListener('click', () => {
     remove.setAttribute('id', 'removeItem')
     paragraph.append(remove)
     paragraph.append(editParagraph)
+    paragraph.append(checkbox)
     toDoContainer.appendChild(paragraph);
     textList.value = "";
     remove.addEventListener('click', () => {
