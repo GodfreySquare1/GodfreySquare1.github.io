@@ -256,6 +256,7 @@ main h1 {
       color: aliceblue;
       background-color: #333333;
       font-weight: bold;
+      vertical-align: middle;
     }
     
     .remove:hover {
@@ -268,6 +269,7 @@ main h1 {
       color: aliceblue;
       font-weight: bold;
       font-size: 10px;
+      vertical-align: middle;
     }
     
     .fa-pencil:hover {
@@ -310,13 +312,10 @@ main h1 {
         vertical-align: middle;
         margin-left: 10px;
         color: rgb(250, 254, 255);
-        font-size: 12px;
+        font-size: 10px;
         text-decoration: none;
     }
     
-    #check {
-        text-decoration:dashed;
-    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -476,5 +475,6 @@ main h1 {
         color: rgb(250, 254, 255);
         font-size: 12px;
         text-decoration: none;
+        font-size: 10px;
     }
 }
