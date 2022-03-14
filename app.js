@@ -4,7 +4,7 @@ const textList = document.getElementById('listItem') // grabbing the value in in
 const toDoContainer = document.getElementById('list-item-container') // grabbing the div where list goes into
 
 
-addButton.addEventListener('click', () => {
+addButton.addEventListener('click', () => { // this is a click event to add the string that was entered in the textfield area.
     var paragraph = document.createElement('p')
     paragraph.innerText = textList.value;
     var remove = document.createElement('button')
