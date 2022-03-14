@@ -23,7 +23,7 @@ addButton.addEventListener('click', () => {
     toDoContainer.appendChild(paragraph)
     textList.value = "";
 
-    checkbox.addEventListener('click', () => {
+    checkbox.addEventListener('click', () => { // This is the click event to mark-off an item
         paragraph.style.textDecoration = 'line-through'
         paragraph.style.color = 'skyblue'
         paragraph.removeChild(checkbox)
@@ -35,7 +35,7 @@ addButton.addEventListener('click', () => {
         tick.style.textDecoration = 'none'
         paragraph.appendChild(tick)
 
-        tick.addEventListener('click', () => {
+        tick.addEventListener('click', () => {  // This is the click event to undoe mark-off
             paragraph.style.textDecoration = 'none'
             paragraph.style.color = 'white'
             paragraph.removeChild(tick)
@@ -45,10 +45,10 @@ addButton.addEventListener('click', () => {
         })
     })
 
-    remove.addEventListener('click', () => {
+    remove.addEventListener('click', () => { // This is the click event to remove the current list item
         toDoContainer.removeChild(paragraph)
     });
-    editParagraph.addEventListener('click', () => {
+    editParagraph.addEventListener('click', () => { // This is the click event to edit the current list item
         paragraph.removeChild(remove)
         paragraph.removeChild(editParagraph)
         paragraph.removeChild(checkbox)
