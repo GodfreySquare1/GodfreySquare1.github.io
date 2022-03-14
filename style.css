@@ -449,6 +449,8 @@ main h1 {
         border: 1px solid skyblue;
         font-weight: bold;
         border-radius: 0;
+        vertical-align: bottom;
+        height: 20px;
     }
     
     
