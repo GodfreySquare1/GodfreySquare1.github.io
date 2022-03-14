@@ -287,7 +287,7 @@ main h1 {
         color: white;
         outline: none;
         width: 70px;
-        border-radius: none;
+        border-radius: 0;
     }
     
     .save {
@@ -450,7 +450,7 @@ main h1 {
         color: white;
         outline: none;
         width: 70px;
-        border-radius: none;
+        border-radius: 0;
     }
     
     .save {
