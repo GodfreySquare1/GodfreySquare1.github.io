@@ -375,6 +375,7 @@ main h1 {
     
     html, body {
         width: 50%;
+        height: 300px;
         padding: 0 auto;
         margin: 0 auto;
         background: #333333;
@@ -439,6 +440,7 @@ main h1 {
       border: none;
       font-size: 10px;
       padding: 0;
+      vertical-align: middle;
     }
     
     .remove:hover {
