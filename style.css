@@ -228,7 +228,7 @@ main h1 {
     }
     
     #addItem {
-        height: 26px;
+        height: 24px;
         width: 38px;
         outline: none;
         border: 1px solid skyblue;
@@ -236,7 +236,7 @@ main h1 {
         color: aliceblue;
         font-weight: bold;
         font-size: 15px;
-        vertical-align: middle;
+        vertical-align: bottom;
     }
     
     #addItem:hover {
