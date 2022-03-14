@@ -217,7 +217,7 @@ main h1 {
     
     #listItem {
         height: 20px;
-        width: 80px;
+        width: 100px;
         border: 1px solid skyblue;
         outline: none;
         background: gray;
@@ -228,7 +228,7 @@ main h1 {
     }
     
     #addItem {
-        height: 24px;
+        height: 28px;
         width: 38px;
         outline: none;
         border: 1px solid skyblue;
