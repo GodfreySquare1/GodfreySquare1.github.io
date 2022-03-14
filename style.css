@@ -45,7 +45,7 @@ html, body {
 }
 
 main {
-   width: 360px;
+   width: 600px;
 } 
 
 main h1 {
@@ -81,10 +81,15 @@ main h1 {
 }
 
 #list-item-container {
-    line-height: 2px;
+    line-height: 10px;
     font-weight: bold;
     color: white;
 }
+
+#list-item-container {
+    font-size: 20px;
+}
+
 
 .remove {
   margin-left: 5px;
@@ -105,11 +110,11 @@ main h1 {
   color: aliceblue;
   font-weight: bold;
   font-size: 15px;
-  vertical-align: middle;
 }
 
 .fa-pencil:hover {
     color: skyblue;
+    vertical-align: middle;
 }
 
 .addField {
@@ -127,3 +132,28 @@ main h1 {
     font-weight: bold;
 }
 
+
+
+.fa-square-o {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    display: inline;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.fa-undo{
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: rgb(250, 254, 255);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#check {
+    text-decoration:dashed;
+}

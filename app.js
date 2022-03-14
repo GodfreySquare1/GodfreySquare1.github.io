@@ -9,9 +9,8 @@ addButton.addEventListener('click', () => {
     paragraph.innerText = textList.value;
     var remove = document.createElement('button')
     var editParagraph = document.createElement('i')
-    var checkbox = document.createElement('input')
-    checkbox.setAttribute('type', 'checkbox')
-    checkbox.classList = 'checkbox-style'
+    var checkbox = document.createElement('i')
+    checkbox.classList = 'fa fa-square-o'
     editParagraph.innerText = ''
     editParagraph.classList = 'fa fa-pencil'
     editParagraph.setAttribute('id', 'edit')
@@ -21,14 +20,38 @@ addButton.addEventListener('click', () => {
     paragraph.append(remove)
     paragraph.append(editParagraph)
     paragraph.append(checkbox)
-    toDoContainer.appendChild(paragraph);
+    toDoContainer.appendChild(paragraph)
     textList.value = "";
+
+    checkbox.addEventListener('click', () => {
+        paragraph.style.textDecoration = 'line-through'
+        paragraph.style.color = 'skyblue'
+        paragraph.removeChild(checkbox)
+        paragraph.removeChild(remove)
+        paragraph.removeChild(editParagraph)
+        var tick = document.createElement('i')
+        tick.setAttribute('id', 'check')
+        tick.classList = 'fa fa-undo'
+        tick.style.textDecoration = 'none'
+        paragraph.appendChild(tick)
+
+        tick.addEventListener('click', () => {
+            paragraph.style.textDecoration = 'none'
+            paragraph.style.color = 'white'
+            paragraph.removeChild(tick)
+            paragraph.append(remove)
+            paragraph.append(editParagraph)
+            paragraph.append(checkbox)
+        })
+    })
+
     remove.addEventListener('click', () => {
         toDoContainer.removeChild(paragraph)
     });
     editParagraph.addEventListener('click', () => {
         paragraph.removeChild(remove)
         paragraph.removeChild(editParagraph)
+        paragraph.removeChild(checkbox)
         var addField = document.createElement('input')
         addField.setAttribute('id', 'editText')
         addField.classList = 'addField'
@@ -41,6 +64,7 @@ addButton.addEventListener('click', () => {
             paragraph.innerText = addField.value
             paragraph.append(remove)
             paragraph.append(editParagraph)
+            paragraph.append(checkbox)
         })
     });
 });
