@@ -217,8 +217,8 @@ main h1 {
     }
     
     main {
-        width: 360px;
-       vertical-align: middle;
+        width: 100%;
+        vertical-align: middle;
         margin: 0;
         padding: 0;
     } 
