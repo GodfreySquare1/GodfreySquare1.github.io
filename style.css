@@ -296,9 +296,9 @@ main h1 {
         border: 1px solid skyblue;
         font-weight: bold;
         border-radius: 0;
+        vertical-align: middle;
+        height: 20px;
     }
-    
-    
     
     .fa-square-o {
         width: 10px;
@@ -448,7 +448,7 @@ main h1 {
         border: 1px solid skyblue;
         font-weight: bold;
         border-radius: 0;
-        vertical-align: bottom;
+        vertical-align: middle;
         height: 20px;
     }
     
