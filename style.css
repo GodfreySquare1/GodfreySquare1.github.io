@@ -253,10 +253,6 @@ main h1 {
         vertical-align: bottom;
     }
     
-    #addItem:hover {
-        background-color: white;
-        color: skyblue;
-    }
     
     #list-item-container {
         line-height: 10px;
@@ -274,10 +270,6 @@ main h1 {
       border: none;
     }
     
-    .remove:hover {
-        background-color: white;
-        color: skyblue;
-    }
     
     .fa-pencil {
       margin-left: 5px;
@@ -287,10 +279,6 @@ main h1 {
       vertical-align: middle;
     }
     
-    .fa-pencil:hover {
-        color: skyblue;
-        vertical-align: middle;
-    }
     
     .addField {
         background: grey;
@@ -416,10 +404,7 @@ main h1 {
         vertical-align: bottom;
     }
     
-    #addItem:hover {
-        background-color: white;
-        color: skyblue;
-    }
+  
     
     #list-item-container {
         line-height: 10px;
@@ -440,23 +425,14 @@ main h1 {
       vertical-align: middle;
     }
     
-    .remove:hover {
-        background-color: white;
-        color: skyblue;
-    }
-    
+  
     .fa-pencil {
       margin-left: 10px;
       color: aliceblue;
       font-weight: bold;
       font-size: 10px;
     }
-    
-    .fa-pencil:hover {
-        color: skyblue;
-        vertical-align: middle;
-    }
-    
+
     .addField {
         background: grey;
         border: 1px solid skyblue;
