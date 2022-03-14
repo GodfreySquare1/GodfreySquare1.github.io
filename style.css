@@ -217,13 +217,14 @@ main h1 {
     
     #listItem {
         height: 20px;
-        width: 100px;
+        width: 80px;
         border: 1px solid skyblue;
         outline: none;
         background: gray;
         color: #CCD6F6;
         font-size: 10px;
         font-weight: 600;
+        border-radius: 0;
     }
     
     #addItem {
