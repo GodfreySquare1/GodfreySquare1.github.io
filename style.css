@@ -236,6 +236,7 @@ main h1 {
         color: aliceblue;
         font-weight: bold;
         font-size: 15px;
+        vertical-align: middle;
     }
     
     #addItem:hover {
