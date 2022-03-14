@@ -201,7 +201,7 @@ main h1 {
     }
     
     html, body {
-        width: 50%;
+        width: 100%;
         margin: 0 auto;
         background: #333333;
     }
