@@ -63,7 +63,10 @@ main h1 {
     color: #CCD6F6;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
+
+
 
 #addItem {
     height: 30px;
@@ -74,6 +77,7 @@ main h1 {
     color: aliceblue;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 #addItem:hover {
