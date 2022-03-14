@@ -207,6 +207,8 @@ main h1 {
     main {
        width: 360px;
        vertical-align: middle;
+        margin: 0;
+        padding: 0;
     } 
     
     main h1 {
@@ -458,7 +460,6 @@ main h1 {
         font-weight: bold;
         border-radius: 0;
     }
-    
     
     
     .fa-square-o {
