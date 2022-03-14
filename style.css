@@ -431,7 +431,7 @@ main h1 {
       margin-left: 5px;
       color: aliceblue;
       font-weight: bold;
-      font-size: 15px;
+      font-size: 10px;
     }
     
     .fa-pencil:hover {
@@ -465,7 +465,7 @@ main h1 {
         display: inline;
         margin-left: 10px;
         color: rgb(255, 255, 255);
-        font-size: 20px;
+        font-size: 10px;
     }
     
     .fa-undo{
@@ -476,9 +476,5 @@ main h1 {
         color: rgb(250, 254, 255);
         font-size: 12px;
         text-decoration: none;
-    }
-    
-    #check {
-        text-decoration:dashed;
     }
 }
