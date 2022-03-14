@@ -186,7 +186,7 @@ main h1 {
         line-height: 90vh;
         text-align: center;
         color: white;
-        font-size: 48px;
+        font-size: 24px;
     }
     
     @keyframes fadeIn {
@@ -207,7 +207,7 @@ main h1 {
     }
     
     main {
-       width: 600px;
+       width: 300px;
        vertical-align: middle;
     } 
     
@@ -250,7 +250,7 @@ main h1 {
     }
     
     #list-item-container {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     
