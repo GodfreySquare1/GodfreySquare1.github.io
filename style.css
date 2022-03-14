@@ -235,7 +235,7 @@ main h1 {
         background-color: skyblue;
         color: aliceblue;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 12px;
         vertical-align: bottom;
     }
     
@@ -257,11 +257,9 @@ main h1 {
     
     .remove {
       margin-left: 5px;
-      border: 1px solid skyblue;
       color: aliceblue;
-      background-color: skyblue;
+      background-color: #333333;
       font-weight: bold;
-      border-radius: 10px;
     }
     
     .remove:hover {
