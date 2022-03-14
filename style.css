@@ -205,13 +205,14 @@ main h1 {
     }
     
     html, body {
-        width: 100%;
+        width: 50%;
         margin: 0 auto;
+        padding: 0 auto;
         background: #333333;
     }
     
     main {
-       width: 360px;
+        width: 200px;
        vertical-align: middle;
         margin: 0;
         padding: 0;
@@ -368,13 +369,14 @@ main h1 {
     }
     
     html, body {
-        width: 100%;
+        width: 50%;
+        padding: 0 auto;
         margin: 0 auto;
         background: #333333;
     }
     
     main {
-       width: 360px;
+       width: 200px;
        vertical-align: middle;
     } 
     
