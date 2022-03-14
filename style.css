@@ -108,6 +108,7 @@ main h1 {
 .remove:hover {
     background-color: white;
     color: skyblue;
+    cursor: pointer;
 }
 
 .fa-pencil {
@@ -120,6 +121,7 @@ main h1 {
 .fa-pencil:hover {
     color: skyblue;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .addField {
@@ -128,6 +130,7 @@ main h1 {
     margin-left: 5px;
     color: white;
     outline: none;
+    cursor: pointer;
 }
 
 .save {
@@ -135,6 +138,7 @@ main h1 {
     background-color: skyblue;
     border: 1px solid skyblue;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -147,6 +151,7 @@ main h1 {
     margin-left: 10px;
     color: rgb(255, 255, 255);
     font-size: 20px;
+    cursor: pointer;
 }
 
 .fa-undo{
@@ -157,10 +162,7 @@ main h1 {
     color: rgb(250, 254, 255);
     font-size: 12px;
     text-decoration: none;
-}
-
-#check {
-    text-decoration:dashed;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 390px) {
